@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println(painkiller.Paracetamol)
-	// fmt.Println(painkiller.Aspirin)
+	fmt.Println(painkiller.Paracetamol)          // Paracetamol
+	fmt.Println(painkiller.Paracetamol.String()) // Paracetamol
 }
